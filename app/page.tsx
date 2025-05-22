@@ -86,7 +86,7 @@ export default function Home() {
       {/* About section */}
       <section className="mb-12">
         <div className="flex items-center gap-2 mb-4">
-          <h2 className="text-xl font-semibold">About</h2>
+          <h2 className="text-xl font-semibold">About Me</h2>
           <div className="h-px bg-border flex-grow"></div>
         </div>
         <ul className="space-y-2">
@@ -109,10 +109,10 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* Work Experience */}
+      {/* Working Experience */}
       <section className="mb-12">
         <div className="flex items-center gap-2 mb-4">
-          <h2 className="text-xl font-semibold">Work Experience</h2>
+          <h2 className="text-xl font-semibold">Working Experience</h2>
           <div className="h-px bg-border flex-grow"></div>
         </div>
 
