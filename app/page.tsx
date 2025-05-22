@@ -10,12 +10,12 @@ export default function Home() {
       {/* Header with profile */}
       <section className="mb-10 flex flex-col items-center text-center">
         <div className="relative mb-6">
-          <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+          <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <Image
               src="/ava.jpg"
               alt="Alexander Zhuravlev"
-              width={128}
-              height={128}
+              width={256}
+              height={256}
               className="object-cover"
             />
           </div>
