@@ -19,8 +19,8 @@ export default function Home() {
               className="object-cover"
             />
           </div>
-          <div className="absolute -bottom-2 -right-2 bg-white rounded-full p-1 shadow-md">
-            <span className="text-lg">🏄‍♂️</span>
+          <div className="absolute bottom-3 right-3 bg-white rounded-full p-1.5 shadow-md">
+            <span className="text-xl">🏄‍♂️</span>
           </div>
         </div>
         <h1 className="text-3xl md:text-4xl font-bold mb-2">
