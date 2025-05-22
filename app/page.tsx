@@ -366,7 +366,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <span className="text-amber-500 text-xl">🏆</span>
               <div className="font-medium">
-                Winner of the hackathon Digital Petersburg
+                Medalist of the hackathon Digital Petersburg
               </div>
             </div>
           </div>
