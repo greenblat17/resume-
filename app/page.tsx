@@ -364,7 +364,7 @@ export default function Home() {
               2025
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-amber-500 text-xl">🏆</span>
+              <span className="text-amber-500 text-xl">🏅</span>
               <div className="font-medium">
                 Medalist of the hackathon Digital Petersburg
               </div>
