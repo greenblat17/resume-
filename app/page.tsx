@@ -12,7 +12,7 @@ export default function Home() {
         <div className="relative mb-6">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <Image
-              src="/ava.jpg"
+              src="/ava2.jpg"
               alt="Alexander Zhuravlev"
               width={256}
               height={256}
