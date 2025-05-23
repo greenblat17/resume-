@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Github, ExternalLink, Twitter, Send, Heart, Mail } from "lucide-react";
+import { Github, ExternalLink, Twitter, Send, Heart, Mail, Download, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Badge } from "@/components/ui/badge";
+import { ImageGallery } from "@/components/image-gallery";
 
 export default function Home() {
   return (
@@ -30,8 +31,8 @@ export default function Home() {
           Software Engineer & Tech-Founder
         </p>
 
-        <div className="flex gap-3 mb-8">
-          <Button
+        <div className="flex flex-wrap gap-3 mb-8 justify-center">  
+        <Button
             asChild
             variant="outline"
             size="sm"
@@ -243,66 +244,137 @@ export default function Home() {
 
         <div className="flex flex-col space-y-6">
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
-            <div className="flex justify-between items-center mb-3">
-              <a
-                href="https://video-spark.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
-              >
-                AI Summarizer YT Video
-                <ExternalLink size={14} />
-              </a>
+            <div className="flex justify-between items-start mb-3">
+              <div className="flex-1">
+                <a
+                  href="https://video-spark.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                >
+                  VideoSpark
+                  <ExternalLink size={14} />
+                </a>
+                <div className="text-muted-foreground text-xs mt-1">Saint-Petersburg</div>
+              </div>
               <Badge className="bg-teal-50 text-teal-700 hover:bg-teal-100 border-none">
                 2025
               </Badge>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-3">
               Chrome Extension to summarize YouTube Video and get news update
               about new video from creators to Telegram or Email
             </p>
+            <ul className="space-y-1 mb-4">
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">AI-powered video content summarization</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Automated notifications for new content</span>
+              </li>
+            </ul>
+            <div className="mb-4">
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: Chrome Extension API, OpenAI API, React, Telegram Bot API</p>
+            </div>
+            <ImageGallery 
+              images={[
+                { src: "/screenshots/videospark-1.png", orientation: "horizontal" },
+                { src: "/screenshots/videospark-2.png", orientation: "horizontal" },
+                { src: "/screenshots/videospark-3.png", orientation: "horizontal" },
+                
+              ]}
+              alt="VideoSpark screenshots"
+              projectName="VideoSpark"
+            />
           </div>
 
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
-            <div className="flex justify-between items-center mb-3">
-              <a
-                href="https://beatboard.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
-              >
-                BeatBoard
-                <ExternalLink size={14} />
-              </a>
+            <div className="flex justify-between items-start mb-3">
+              <div className="flex-1">
+                <a
+                  href="https://beatboard.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                >
+                  BeatBoard
+                  <ExternalLink size={14} />
+                </a>
+                <div className="text-muted-foreground text-xs mt-1">Saint-Petersburg</div>
+              </div>
               <Badge className="bg-teal-50 text-teal-700 hover:bg-teal-100 border-none">
                 2025
               </Badge>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-3">
               Web-App to track your work time and conquer to your friends and
               people from the whole world
             </p>
+            <ul className="space-y-1 mb-4">
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Built user time tracking system with real-time leaderboards</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Implemented social features and competitive analytics</span>
+              </li>
+            </ul>
+            <div className="mb-4">
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Next.js, TypeScript, Tailwind CSS, Vercel</p>
+            </div>
+            <ImageGallery 
+              images={[
+                { src: "/screenshots/beatboard-1.png", orientation: "horizontal" },
+                { src: "/screenshots/beatboard-2.png", orientation: "horizontal" },
+              ]}
+              alt="BeatBoard screenshots"
+              projectName="BeatBoard"
+            />
           </div>
 
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
-            <div className="flex justify-between items-center mb-3">
-              <a
-                href="https://tgnotes-app.site/landing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
-              >
-                Pocket
-                <ExternalLink size={14} />
-              </a>
+            <div className="flex justify-between items-start mb-3">
+              <div className="flex-1">
+                <a
+                  href="https://tgnotes-app.site/landing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                >
+                  Pocket
+                  <ExternalLink size={14} />
+                </a>
+                <div className="text-muted-foreground text-xs mt-1">Saint-Petersburg</div>
+              </div>
               <Badge className="bg-teal-50 text-teal-700 hover:bg-teal-100 border-none">
                 2025
               </Badge>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-3">
               Telegram Mini-App to save useful links, texts and even posts from
               telegram channels
             </p>
+            <ul className="space-y-1 mb-4">
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Telegram Mini App with 1K+ active users</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Built content saving system with categorization</span>
+              </li>
+            </ul>
+            <div className="mb-4">
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Node.js, Telegram Bot API, PostgreSQL</p>
+            </div>
+            <ImageGallery 
+              images={["/screenshots/pocket-1.svg"]}
+              alt="Pocket screenshots"
+              projectName="Pocket"
+            />
           </div>
 
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
