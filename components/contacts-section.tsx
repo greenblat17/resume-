@@ -12,7 +12,7 @@ export function ContactsSection() {
           href="https://x.com/jurhasha/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors w-full max-w-xs justify-start"
+          className="flex items-center gap-3 text-muted-foreground hover:underline transition-colors w-full max-w-xs justify-start"
         >
           <div className="bg-gray-900 dark:bg-gray-800 text-white p-2 rounded-full">
             <Twitter size={18} />
@@ -26,7 +26,7 @@ export function ContactsSection() {
           href="https://github.com/greenblat17"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors w-full max-w-xs justify-start"
+          className="flex items-center gap-3 text-muted-foreground hover:underline transition-colors w-full max-w-xs justify-start"
         >
           <div className="bg-gray-900 dark:bg-gray-800 text-white p-2 rounded-full">
             <Github size={18} />
@@ -40,7 +40,7 @@ export function ContactsSection() {
           href="https://t.me/greenblat"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors w-full max-w-xs justify-start"
+          className="flex items-center gap-3 text-muted-foreground hover:underline transition-colors w-full max-w-xs justify-start"
         >
           <div className="bg-gray-900 dark:bg-gray-800 text-white p-2 rounded-full">
             <Send size={18} />
@@ -52,7 +52,7 @@ export function ContactsSection() {
         </a>
         <a
           href="mailto:a_zhuravlev_9785@mail.ru"
-          className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors w-full max-w-xs justify-start"
+          className="flex items-center gap-3 text-muted-foreground hover:underline transition-colors w-full max-w-xs justify-start"
         >
           <div className="bg-gray-900 dark:bg-gray-800 text-white p-2 rounded-full">
             <Mail size={18} />

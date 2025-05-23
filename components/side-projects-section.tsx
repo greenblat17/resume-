@@ -20,7 +20,7 @@ export function SideProjectsSection() {
                 href="https://video-spark.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                className="font-medium text-base hover:underline transition-colors flex items-center gap-1"
               >
                 VideoSpark
                 <ExternalLink size={14} />
@@ -55,7 +55,7 @@ export function SideProjectsSection() {
                 href="https://beatboard.xyz"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                className="font-medium text-base hover:underline transition-colors flex items-center gap-1"
               >
                 BeatBoard
                 <ExternalLink size={14} />
@@ -89,7 +89,7 @@ export function SideProjectsSection() {
                 href="https://tgnotes-app.site/landing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                className="font-medium text-base hover:underline transition-colors flex items-center gap-1"
               >
                 Pocket
                 <ExternalLink size={14} />
@@ -125,7 +125,7 @@ export function SideProjectsSection() {
                 href="https://t.me/megacal_bot/app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                className="font-medium text-base hover:underline transition-colors flex items-center gap-1"
               >
                 MegaCal
                 <ExternalLink size={14} />
