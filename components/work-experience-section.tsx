@@ -15,7 +15,7 @@ export function WorkExperienceSection() {
             2025 — Now
           </div>
           <div>
-            <div className="font-medium">
+            <div className="font-medium flex items-center gap-1">
               Building own projects{" "}
               <Badge
                 variant="outline"
