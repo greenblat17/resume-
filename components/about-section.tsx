@@ -7,17 +7,17 @@ export function AboutSection() {
       </div>
       <ul className="space-y-2">
         <li className="flex items-start">
-          <span className="mr-2 text-teal-600">•</span>
+          <span className="mr-2 text-gray-700">•</span>
           <span>
             Tech founder, full-stack engineer, sometimes indie hacker
           </span>
         </li>
         <li className="flex items-start">
-          <span className="mr-2 text-teal-600">•</span>
+          <span className="mr-2 text-gray-700">•</span>
           <span>21 yo, cs major</span>
         </li>
         <li className="flex items-start">
-          <span className="mr-2 text-teal-600">•</span>
+          <span className="mr-2 text-gray-700">•</span>
           <span className="flex items-center">
             <span>Love AI & consumer apps</span>
           </span>

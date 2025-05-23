@@ -20,15 +20,15 @@ export function EducationSection() {
             </div>
             <ul className="space-y-2 mt-3">
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Ranked in the top 5% of universities in the world</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Top 10 technical universities in Russia</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Top 3 technical universities in Saint-Petersburg</span>
               </li>
             </ul>
@@ -50,11 +50,11 @@ export function EducationSection() {
             </div>
             <ul className="space-y-2 mt-3">
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Top 100 best school in Russia</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Top 15 best school in Saint-Petersburg</span>
               </li>
             </ul>

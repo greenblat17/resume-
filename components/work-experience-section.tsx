@@ -53,26 +53,26 @@ export function WorkExperienceSection() {
             </div>
             <ul className="space-y-2 mt-3">
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Gather customer requirements, estimate timelines, implement
                   business logic</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Support and development of 10 microservices</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>
                   Implemented modern database libraries and system monitoring
                   into the project</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Participated in hiring new employees</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>
                   Gave presentations to the Go community within the company</span>
               </li>
@@ -103,15 +103,15 @@ export function WorkExperienceSection() {
             </div>
             <ul className="space-y-2 mt-3">
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Created 10 FRX reports</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>Trained interns and new colleagues</span>
               </li>
               <li className="flex items-start">
-                <span className="mr-2 text-teal-600">•</span>
+                <span className="mr-2 text-gray-700">•</span>
                 <span>
                   Participated in the development of a new project
                   architecture for FRX reporting</span>
