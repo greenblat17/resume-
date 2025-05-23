@@ -58,7 +58,7 @@ export function ImageGallery({ images, alt, projectName }: ImageGalleryProps) {
     if (orientation === 'horizontal') {
       return `${baseClasses} w-24 h-16` // Горизонтальный формат (landscape)
     } else {
-      return `${baseClasses} w-16 h-20` // Вертикальный формат (portrait)
+      return `${baseClasses} w-14 h-24` // Вертикальный формат (portrait)
     }
   }
 

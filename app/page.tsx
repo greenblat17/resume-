@@ -276,7 +276,7 @@ export default function Home() {
               </li>
             </ul>
             <div className="mb-4">
-              <p className="text-xs text-muted-foreground mb-2">Tech stack: Chrome Extension API, OpenAI API, React, Telegram Bot API</p>
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: Chrome Extension, OpenAI API, Next.js</p>
             </div>
             <ImageGallery 
               images={[
@@ -323,7 +323,7 @@ export default function Home() {
               </li>
             </ul>
             <div className="mb-4">
-              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Next.js, TypeScript, Tailwind CSS, Vercel</p>
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: Next.js, MongoDB</p>
             </div>
             <ImageGallery 
               images={[
@@ -368,33 +368,65 @@ export default function Home() {
               </li>
             </ul>
             <div className="mb-4">
-              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Node.js, Telegram Bot API, PostgreSQL</p>
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: Next.js, Golang, Telegram Bot API, MongoDB</p>
             </div>
             <ImageGallery 
-              images={["/screenshots/pocket-1.svg"]}
+              images={[
+                { src: "/screenshots/pocket-1.png", orientation: "vertical" },
+                { src: "/screenshots/pocket-2.png", orientation: "vertical" },
+                { src: "/screenshots/pocket-3.png", orientation: "vertical" },
+                { src: "/screenshots/pocket-4.png", orientation: "vertical" },
+                
+              ]}
               alt="Pocket screenshots"
               projectName="Pocket"
             />
           </div>
 
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
-            <div className="flex justify-between items-center mb-3">
-              <a
-                href="https://t.me/megacal_bot/app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
-              >
-                MegaCal
-                <ExternalLink size={14} />
-              </a>
+            <div className="flex justify-between items-start mb-3">
+              <div className="flex-1">
+                <a
+                  href="https://t.me/megacal_bot/app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-base hover:text-teal-700 transition-colors flex items-center gap-1"
+                >
+                  MegaCal
+                  <ExternalLink size={14} />
+                </a>
+                <div className="text-muted-foreground text-xs mt-1">Saint-Petersburg</div>
+              </div>
               <Badge className="bg-teal-50 text-teal-700 hover:bg-teal-100 border-none">
                 2025
               </Badge>
             </div>
-            <p className="text-sm text-muted-foreground">
-              Telegram Mini-App to organize offline meetings with friends
+            <p className="text-sm text-muted-foreground mb-3">
+              Telegram Mini-App to organize offline meetings with friends and coordinate group events with smart scheduling
             </p>
+            <ul className="space-y-1 mb-4">
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Smart group scheduling with availability coordination</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 text-teal-600">•</span>
+                <span className="text-sm">Real-time voting system for meeting locations and times</span>
+              </li>
+            </ul>
+            <div className="mb-4">
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Java, Spring Boot, PostgreSQL</p>
+            </div>
+            <ImageGallery 
+              images={[
+                { src: "/screenshots/megacal-1.png", orientation: "vertical" },
+                { src: "/screenshots/megacal-2.png", orientation: "vertical" },
+                { src: "/screenshots/megacal-3.png", orientation: "vertical" },
+                
+              ]}
+              alt="MegaCal screenshots"
+              projectName="MegaCal"
+            />
           </div>
 
           <div className="border rounded-xl p-5 hover:shadow-md transition-all hover:border-teal-200">
@@ -407,6 +439,9 @@ export default function Home() {
             <p className="text-sm text-muted-foreground">
               Service for online restaurant reservations
             </p>
+            <div className="mb-4">
+              <p className="text-xs text-muted-foreground mb-2">Tech stack: React, Java, Spring Boot, PostgreSQL</p>
+            </div>
           </div>
         </div>
       </section>
