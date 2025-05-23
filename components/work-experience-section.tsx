@@ -15,11 +15,11 @@ export function WorkExperienceSection() {
             2025 — Now
           </div>
           <div>
-            <div className="font-medium flex items-center gap-2">
-              Building own projects
+            <div className="font-medium">
+              Building own projects{" "}
               <Badge
                 variant="outline"
-                className="rounded-full text-xs font-normal"
+                className="rounded-full text-xs font-normal ml-2"
               >
                 Current
               </Badge>
