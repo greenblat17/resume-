@@ -11,7 +11,7 @@ export function SideProjectsSection() {
 
       <div className="space-y-8">
         <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16">
+          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
             2025
           </div>
           <div className="flex-1">
@@ -43,7 +43,7 @@ export function SideProjectsSection() {
         </div>
 
         <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16">
+          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
             2025
           </div>
           <div className="flex-1">
@@ -74,7 +74,7 @@ export function SideProjectsSection() {
         </div>
 
         <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16">
+          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
             2025
           </div>
           <div className="flex-1">
@@ -107,7 +107,7 @@ export function SideProjectsSection() {
         </div>
 
         <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16">
+          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
             2025
           </div>
           <div className="flex-1">
@@ -139,7 +139,7 @@ export function SideProjectsSection() {
         </div>
 
         <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16">
+          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
             2024
           </div>
           <div className="flex-1">
