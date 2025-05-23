@@ -27,7 +27,10 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Chrome Extension to summarize YouTube Video and get news update about new video from creators to Telegram or Email. AI-powered content summarization with automated notifications.
+              Chrome Extension to summarize YouTube videos with AI   
+            </p>
+            <p className="text-sm text-muted-foreground mb-3">
+              Get news update about new videos from creators to Telegram or Email          
             </p>
             <p className="text-xs text-muted-foreground mb-4">Tech stack: Chrome Extension, OpenAI API, Next.js</p>
             <ImageGallery 
@@ -59,7 +62,10 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Web-App to track your work time and compete with friends and people from the whole world. Built user time tracking system with real-time leaderboards and social features.
+              Web-App to track your work time and compete with friends and people from the whole world
+            </p>
+            <p className="text-sm text-muted-foreground mb-3">
+              Built user time tracking system with real-time leaderboards and beautiful analytics dashboard
             </p>
             <p className="text-xs text-muted-foreground mb-4">Tech stack: Next.js, MongoDB</p>
             <ImageGallery 
@@ -90,9 +96,12 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Telegram Mini-App to save useful links, texts and even posts from telegram channels. Built content saving system with categorization for 1K+ active users.
+              Telegram Mini-App to save & organize useful links, texts and even posts from Telegram channels.
             </p>
-            <p className="text-xs text-muted-foreground mb-4">Tech stack: Next.js, Golang, Telegram Bot API, MongoDB</p>
+            <p className="text-sm text-muted-foreground mb-3">
+              Built content saving system with categorization for 1K+ active users
+            </p>
+            <p className="text-sm text-muted-foreground mb-4">Tech stack: Next.js, Golang, Telegram Bot API, MongoDB</p>
             <ImageGallery 
               images={[
                 { src: "/screenshots/pocket-1.png", orientation: "vertical" },
@@ -123,9 +132,12 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Telegram Mini-App to organize offline meetings with friends and coordinate group events with smart scheduling. Features real-time voting system for meeting locations and times.
+              Smart group scheduling Telegram Mini-App that makes organizing meetups with friends effortless 
             </p>
-            <p className="text-xs text-muted-foreground mb-4">Tech stack: React, Java, Spring Boot, PostgreSQL</p>
+            <p className="text-sm text-muted-foreground mb-3">
+              Features real-time voting system for meeting locations and times
+            </p>
+            <p className="text-sm text-muted-foreground mb-4">Tech stack: React, Java, Spring Boot, PostgreSQL</p>
             <ImageGallery 
               images={[
                 { src: "/screenshots/megacal-1.png", orientation: "vertical" },
@@ -146,9 +158,10 @@ export function SideProjectsSection() {
             <div className="mb-3">
               <h3 className="font-medium text-base">Bron</h3>
             </div>
-            <p className="text-sm text-muted-foreground">
-              Service for online restaurant reservations
+            <p className="text-sm text-muted-foreground mb-3">
+              Restaurant reservation service for seamless dining experiences 
             </p>
+            <p className="text-sm text-muted-foreground mb-4">Tech stack: Java, Spring Boot, React, PostgreSQL</p>
           </div>
         </div>
       </div>
