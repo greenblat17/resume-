@@ -425,7 +425,7 @@ export default function Home() {
         <div className="mb-8">
           <div className="flex items-start gap-4 mb-4">
             <div className="text-muted-foreground text-sm whitespace-nowrap pt-1">
-              2018 — 2021
+              2017 — 2021
             </div>
             <div>
               <div className="font-medium">
