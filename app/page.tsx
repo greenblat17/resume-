@@ -6,6 +6,8 @@ import { AwardsSection } from "@/components/awards-section";
 import { EducationSection } from "@/components/education-section";
 import { ContactsSection } from "@/components/contacts-section";
 import { Footer } from "@/components/footer";
+import { Badge } from "@/components/ui/badge";
+import { TechSkillsSection } from "@/components/TechSkillsSection";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <AboutSection />
       <WorkExperienceSection />
       <SideProjectsSection />
+      <TechSkillsSection />
       <AwardsSection />
       <EducationSection />
       <ContactsSection />
