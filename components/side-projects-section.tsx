@@ -27,17 +27,29 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Chrome Extension to summarize YouTube videos with AI   
+              Chrome Extension to summarize YouTube videos with AI
             </p>
             <p className="text-sm text-muted-foreground mb-3">
-              Get news update about new videos from creators to Telegram or Email          
+              Get news update about new videos from creators to Telegram or
+              Email
             </p>
-            <p className="text-xs text-muted-foreground mb-4">Tech stack: Chrome Extension, OpenAI API, Next.js</p>
-            <ImageGallery 
+            <p className="text-xs text-muted-foreground mb-4">
+              Tech stack: Chrome Extension, OpenAI API, Next.js
+            </p>
+            <ImageGallery
               images={[
-                { src: "/screenshots/videospark-1.png", orientation: "horizontal" },
-                { src: "/screenshots/videospark-2.png", orientation: "horizontal" },
-                { src: "/screenshots/videospark-3.png", orientation: "horizontal" },
+                {
+                  src: "/screenshots/videospark-1.png",
+                  orientation: "horizontal",
+                },
+                {
+                  src: "/screenshots/videospark-2.png",
+                  orientation: "horizontal",
+                },
+                {
+                  src: "/screenshots/videospark-3.png",
+                  orientation: "horizontal",
+                },
               ]}
               alt="VideoSpark screenshots"
               projectName="VideoSpark"
@@ -62,16 +74,26 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Web-App to track your work time and compete with friends and people from the whole world
+              Web-App to track your work time and compete with friends and
+              people from the whole world
             </p>
             <p className="text-sm text-muted-foreground mb-3">
-              Built user time tracking system with real-time leaderboards and beautiful analytics dashboard
+              Built user time tracking system with real-time leaderboards and
+              beautiful analytics dashboard
             </p>
-            <p className="text-xs text-muted-foreground mb-4">Tech stack: Next.js, MongoDB</p>
-            <ImageGallery 
+            <p className="text-xs text-muted-foreground mb-4">
+              Tech stack: Next.js, Supabase, TailwindCSS
+            </p>
+            <ImageGallery
               images={[
-                { src: "/screenshots/beatboard-1.png", orientation: "horizontal" },
-                { src: "/screenshots/beatboard-2.png", orientation: "horizontal" },
+                {
+                  src: "/screenshots/beatboard-1.png",
+                  orientation: "horizontal",
+                },
+                {
+                  src: "/screenshots/beatboard-2.png",
+                  orientation: "horizontal",
+                },
               ]}
               alt="BeatBoard screenshots"
               projectName="BeatBoard"
@@ -96,13 +118,17 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Telegram Mini-App to save & organize useful links, texts and even posts from Telegram channels.
+              Telegram Mini-App to save & organize useful links, texts and even
+              posts from Telegram channels.
             </p>
             <p className="text-sm text-muted-foreground mb-3">
-              Built content saving system with categorization for 1K+ active users
+              Built content saving system with categorization for 1K+ active
+              users
             </p>
-            <p className="text-sm text-muted-foreground mb-4">Tech stack: Next.js, Golang, Telegram Bot API, MongoDB</p>
-            <ImageGallery 
+            <p className="text-sm text-muted-foreground mb-4">
+              Tech stack: Next.js, Golang, Telegram Bot API, MongoDB
+            </p>
+            <ImageGallery
               images={[
                 { src: "/screenshots/pocket-1.png", orientation: "vertical" },
                 { src: "/screenshots/pocket-2.png", orientation: "vertical" },
@@ -132,13 +158,16 @@ export function SideProjectsSection() {
               </a>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Smart group scheduling Telegram Mini-App that makes organizing meetups with friends effortless 
+              Smart group scheduling Telegram Mini-App that makes organizing
+              meetups with friends effortless
             </p>
             <p className="text-sm text-muted-foreground mb-3">
               Features real-time voting system for meeting locations and times
             </p>
-            <p className="text-sm text-muted-foreground mb-4">Tech stack: React, Java, Spring Boot, PostgreSQL</p>
-            <ImageGallery 
+            <p className="text-sm text-muted-foreground mb-4">
+              Tech stack: React, Java, Spring Boot, PostgreSQL
+            </p>
+            <ImageGallery
               images={[
                 { src: "/screenshots/megacal-1.png", orientation: "vertical" },
                 { src: "/screenshots/megacal-2.png", orientation: "vertical" },
@@ -159,12 +188,14 @@ export function SideProjectsSection() {
               <h3 className="font-medium text-base">Bron</h3>
             </div>
             <p className="text-sm text-muted-foreground mb-3">
-              Restaurant reservation service for seamless dining experiences 
+              Restaurant reservation service for seamless dining experiences
             </p>
-            <p className="text-sm text-muted-foreground mb-4">Tech stack: Java, Spring Boot, React, PostgreSQL</p>
+            <p className="text-sm text-muted-foreground mb-4">
+              Tech stack: Java, Spring Boot, React, PostgreSQL
+            </p>
           </div>
         </div>
       </div>
     </section>
   );
-} 
+}
