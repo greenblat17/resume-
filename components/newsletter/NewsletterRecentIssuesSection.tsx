@@ -3,7 +3,7 @@ export function NewsletterRecentIssuesSection() {
     <div>
       <div className="flex items-center gap-3 mb-6">
         <h3 className="text-xl font-heading font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
-          Recent Issues
+          Recent Learning Notes
         </h3>
         <div className="h-px bg-gradient-to-r from-border to-transparent flex-grow"></div>
       </div>
@@ -14,16 +14,16 @@ export function NewsletterRecentIssuesSection() {
             <div className="flex items-center gap-2 mb-2">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span className="text-xs font-mono font-medium text-muted-foreground uppercase tracking-wider">
-                Latest
+                This Week
               </span>
             </div>
             <h4 className="font-heading font-bold text-lg group-hover:text-teal-600 transition-colors duration-200">
-              How I increased team productivity by 40%
+              I spent $200 on courses and learned this...
             </h4>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            Practical methods for organizing development processes that actually
-            work in real teams
+            Honest review of 3 product development courses I bought this month —
+            which ones were worth it and which were total garbage
           </p>
         </div>
 
@@ -32,17 +32,17 @@ export function NewsletterRecentIssuesSection() {
             <div className="flex items-center gap-2 mb-2">
               <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
               <span className="text-xs font-mono font-medium text-muted-foreground uppercase tracking-wider">
-                Popular
+                Beginner Fail
               </span>
             </div>
             <h4 className="font-heading font-bold text-lg group-hover:text-purple-600 transition-colors duration-200">
-              From idea to 1000 users in one month
+              My first landing page was terrible (here's why)
             </h4>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            <span className="font-mono text-sm font-medium">MegaCal</span>{" "}
-            launch story and first metrics — the good, the bad, and the
-            unexpected
+            I thought I knew design. I was wrong. Here's what I learned from
+            building my first product landing page and getting roasted by the
+            internet
           </p>
         </div>
 
@@ -51,16 +51,16 @@ export function NewsletterRecentIssuesSection() {
             <div className="flex items-center gap-2 mb-2">
               <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               <span className="text-xs font-mono font-medium text-muted-foreground uppercase tracking-wider">
-                Essential
+                Resource Drop
               </span>
             </div>
             <h4 className="font-heading font-bold text-lg group-hover:text-blue-600 transition-colors duration-200">
-              5 mistakes every developer makes
+              5 free tools that actually help beginners
             </h4>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            And how to avoid them based on personal experience (spoiler: I made
-            all of them)
+            No-BS list of free resources I'm actually using to learn product
+            development — tested by a complete beginner (me)
           </p>
         </div>
       </div>

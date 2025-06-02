@@ -20,36 +20,33 @@ export function NewsletterProfileSection() {
           <p className="text-lg font-medium">
             I'm a{" "}
             <span className="font-heading font-bold text-teal-600 bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent">
-              Software Engineer & Tech-Founder
+              Software Engineer
             </span>{" "}
-            building innovative consumer applications that change user behavior.
+            learning to bootstrap products from scratch, just like you.
           </p>
 
           <p className="text-muted-foreground">
-            I have commercial experience working with{" "}
+            I have experience working with{" "}
             <span className="font-mono text-sm bg-muted px-2 py-1 rounded font-medium">
               Go microservices
             </span>{" "}
             at
-            <span className="font-semibold text-foreground"> Nexign</span>.
+            <span className="font-semibold text-foreground"> Nexign</span>, but
+            I'm a complete beginner at building products.
           </p>
 
           <p className="text-muted-foreground leading-relaxed">
-            Now I'm transitioning from development to{" "}
+            I'm not your typical "guru" who teaches from a pedestal. I'm{" "}
             <span className="font-semibold text-foreground">
-              entrepreneurship
-            </span>{" "}
-            and product building. I've already created{" "}
+              learning alongside you
+            </span>
+            . When I discover something useful — a resource, tool, or insight —
+            I share it with you. It's a{" "}
             <span className="font-heading font-bold text-teal-600">
-              5 projects
-            </span>{" "}
-            including
-            <span className="font-mono text-sm font-medium">MegaCal</span>,{" "}
-            <span className="font-mono text-sm font-medium">Pocket</span>, and
-            <span className="font-mono text-sm font-medium">BeatBoard</span>,
-            focusing on solving real user problems through innovative solutions.
-            My goal is to build products that genuinely change how people
-            interact with technology.
+              win-win journey
+            </span>
+            : we grow together, stumble together, and celebrate small wins
+            together.
           </p>
         </div>
       </div>
