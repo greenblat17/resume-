@@ -16,38 +16,57 @@ export function NewsletterProfileSection() {
           />
         </div>
 
-        <div className="space-y-4 text-sm leading-relaxed">
-          <p>
-            I'm a <strong>Software Engineer & Tech-Founder</strong> building
-            innovative consumer applications that change user behavior.
+        <div className="space-y-5 text-base leading-relaxed">
+          <p className="text-lg font-medium">
+            I'm a{" "}
+            <span className="font-heading font-bold text-teal-600 bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent">
+              Software Engineer & Tech-Founder
+            </span>{" "}
+            building innovative consumer applications that change user behavior.
           </p>
 
-          <p>
-            I have commercial experience working with Go microservices at
-            Nexign.
+          <p className="text-muted-foreground">
+            I have commercial experience working with{" "}
+            <span className="font-mono text-sm bg-muted px-2 py-1 rounded font-medium">
+              Go microservices
+            </span>{" "}
+            at
+            <span className="font-semibold text-foreground"> Nexign</span>.
           </p>
 
-          <p>
-            Now I'm transitioning from development to entrepreneurship and
-            product building. I've already created 5 projects including MegaCal,
-            Pocket, and BeatBoard, focusing on solving real user problems
-            through innovative solutions. My goal is to build products that
-            genuinely change how people interact with technology.
+          <p className="text-muted-foreground leading-relaxed">
+            Now I'm transitioning from development to{" "}
+            <span className="font-semibold text-foreground">
+              entrepreneurship
+            </span>{" "}
+            and product building. I've already created{" "}
+            <span className="font-heading font-bold text-teal-600">
+              5 projects
+            </span>{" "}
+            including
+            <span className="font-mono text-sm font-medium">MegaCal</span>,{" "}
+            <span className="font-mono text-sm font-medium">Pocket</span>, and
+            <span className="font-mono text-sm font-medium">BeatBoard</span>,
+            focusing on solving real user problems through innovative solutions.
+            My goal is to build products that genuinely change how people
+            interact with technology.
           </p>
         </div>
       </div>
 
       <div>
-        <div className="flex items-center gap-2 mb-4">
-          <h3 className="text-xl font-semibold">Find Me</h3>
-          <div className="h-px bg-border flex-grow"></div>
+        <div className="flex items-center gap-3 mb-6">
+          <h3 className="text-xl font-heading font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+            Find Me
+          </h3>
+          <div className="h-px bg-gradient-to-r from-border to-transparent flex-grow"></div>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 flex-wrap">
           <Button
             asChild
             variant="outline"
             size="sm"
-            className="gap-2 rounded-full"
+            className="gap-2 rounded-full font-medium hover:bg-teal-50 hover:border-teal-200 dark:hover:bg-teal-950 transition-all duration-200"
           >
             <a
               href="https://x.com/jurhasha"
@@ -62,7 +81,7 @@ export function NewsletterProfileSection() {
             asChild
             variant="outline"
             size="sm"
-            className="gap-2 rounded-full"
+            className="gap-2 rounded-full font-medium hover:bg-teal-50 hover:border-teal-200 dark:hover:bg-teal-950 transition-all duration-200"
           >
             <a
               href="https://github.com/greenblat17"
@@ -77,7 +96,7 @@ export function NewsletterProfileSection() {
             asChild
             variant="outline"
             size="sm"
-            className="gap-2 rounded-full"
+            className="gap-2 rounded-full font-medium hover:bg-teal-50 hover:border-teal-200 dark:hover:bg-teal-950 transition-all duration-200"
           >
             <a
               href="https://linkedin.com/in/alexander-zhuravlev"
@@ -92,7 +111,7 @@ export function NewsletterProfileSection() {
             asChild
             variant="outline"
             size="sm"
-            className="gap-2 rounded-full"
+            className="gap-2 rounded-full font-medium hover:bg-teal-50 hover:border-teal-200 dark:hover:bg-teal-950 transition-all duration-200"
           >
             <a
               href="https://t.me/greenblat"
