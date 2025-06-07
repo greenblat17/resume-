@@ -17,53 +17,6 @@ export function SideProjectsSection() {
           <div className="flex-1">
             <div className="mb-3">
               <a
-                href="https://video-spark.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-base hover:underline transition-colors flex items-center gap-1"
-              >
-                VideoSpark
-                <ExternalLink size={14} />
-              </a>
-            </div>
-            <p className="text-sm text-muted-foreground mb-3">
-              Chrome Extension to summarize YouTube videos with AI
-            </p>
-            <p className="text-sm text-muted-foreground mb-3">
-              Get news update about new videos from creators to Telegram or
-              Email
-            </p>
-            <p className="text-xs text-muted-foreground mb-4">
-              Tech stack: Chrome Extension, OpenAI API, Next.js
-            </p>
-            <ImageGallery
-              images={[
-                {
-                  src: "/screenshots/videospark-1.png",
-                  orientation: "horizontal",
-                },
-                {
-                  src: "/screenshots/videospark-2.png",
-                  orientation: "horizontal",
-                },
-                {
-                  src: "/screenshots/videospark-3.png",
-                  orientation: "horizontal",
-                },
-              ]}
-              alt="VideoSpark screenshots"
-              projectName="VideoSpark"
-            />
-          </div>
-        </div>
-
-        <div className="flex items-start gap-16">
-          <div className="text-muted-foreground text-sm whitespace-nowrap w-16 pt-1">
-            2025
-          </div>
-          <div className="flex-1">
-            <div className="mb-3">
-              <a
                 href="https://beatboard.xyz"
                 target="_blank"
                 rel="noopener noreferrer"
